@@ -1,0 +1,39 @@
+<resources>
+    <string name="title_activity_registration_form">Register</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Full Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_company">Company</string>
+    <string name="prompt_address1">Address</string>
+    <string name="prompt_address2">Address Line 2</string>
+    <string name="prompt_city">City</string>
+    <string name="prompt_state">State</string>
+    <string name="prompt_zipcode">Zip/Postal code</string>
+    <string name="prompt_country">Country</string>
+    <string name="prompt_industry">Industry</string>
+    <string name="prompt_is_purchaser">Do you make purchasing decisions?</string>
+    <string name="prompt_where_purchased">Where was this CHS purchased?</string>
+    <string name="prompt_use_softscan">Did you try using the built-in camera on your smartphone
+        for scanning?</string>
+
+    <string name="action_submit_registration">Register</string>
+
+    <string name="login_progress_registering">Registering&#8230;</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Please provide a valid email address</string>
+
+    <string-array name="industry_array">
+        <item>manufacturing:Manufacturing</item>
+        <item>government:Government</item>
+        <item>healthcare:Health Care</item>
+        <item>retail:Retail</item>
+        <item>transportation:Transportation &amp; Logistics</item>
+        <item>financial:Financial Services / Insurance</item>
+        <item>education:Education</item>
+        <item>hospitality:Hospitality</item>
+        <item>telecom:Telecom / Utilities</item>
+    </string-array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Socket Warranty Checker</string>
+    <string name="activity_warrantychecker_name">Warranty Checker</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Actionbar -->
+    <string name="action_register">Register</string>
+    <string name="action_sandbox_000">000555000000</string>
+    <string name="action_sandbox_100">000555100000</string>
+    <string name="action_sandbox_010">000555010000</string>
+    <string name="action_sandbox_110">000555110000</string>
+    <string name="action_sandbox_001">000555001000</string>
+    <string name="action_sandbox_101">000555101000</string>
+    <string name="action_sandbox_011">000555011000</string>
+    <string name="action_sandbox_111">000555111000</string>
+    <string name="action_reset">Reset</string>
+
+    <!-- Progress -->
+    <string name="warranty_loading">Fetching warranty…</string>
+    <string name="waiting_for_device">Waiting for scanner…</string>
+    <string name="enable_bluetooth">Enable Bluetooth &amp; Connect your scanner.</string>
+
+    <!-- Flashes -->
+    <string name="warranty_check_failed">Oops! We are unable to check your warranty at this time. Please contact Socket Mobile support for further assistance.</string>
+    <string name="no_connection">No network connection available.</string>
+    <string name="no_scanner_found">Please connect your scanner to register.</string>
+
+    <!-- Warranty Info -->
+    <string name="warranty_end">expires on %s</string>
+    <string name="warranty_end_extended">extended to %s</string>
+    <string name="registration_status_registered">Registered</string>
+    <string name="registration_status_unregistered"><b>Not Registered</b></string>
+    <string name="warranty_footnote"><sup>\u2020</sup> Register your scanner for an extra year of warranty, absolutely free</string>
+    <string name="warranty_extension_successful">Congratulations! Your warranty has been extended from %1$s to %2$s.</string>
+    <!-- Sample data -->
+    <string name="warranty_sample_description">1 Year Limited Warranty</string>
+    <string name="warranty_sample_expiration">expires on August 20th, 2014</string>
+
+</resources>

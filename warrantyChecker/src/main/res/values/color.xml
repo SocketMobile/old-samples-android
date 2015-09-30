@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="registration_status_registered">@android:color/holo_green_light</color>
+    <color name="registration_status_unregistered">@android:color/holo_red_light</color>
+</resources>

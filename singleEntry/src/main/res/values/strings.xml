@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SingleEntry</string>
+    <string name="status">Status:</string>
+    <string name="initializingScanApi">Initializing ScanAPI&#8230;</string>
+    <string name="failed_to_initialize_scanapi_with_error_">Failed to initialize ScanAPI - error:</string>
+    <string name="pair">Pair to scanner</string>
+    <string name="none_paired">no bluetooth device paired</string>
+    <string name="pair_to_scanner">Pair to a Scanner</string>
+    <string name="no_bluetooth">No Bluetooth</string>
+    <string name="confirm">Confirm</string>
+    <string name="triggerlabel">Trigger</string>
+    <string name="pleasedisablefirst">Please disable first SoftScan prior to make it not supported</string>
+    <string name="formaterrorwhiletriggering">Error %d while triggering the scanner</string>
+    <string name="pleaseinstallrequiredapplication">Please install Barcode Scanner (ZXing) app from Play Store in order to use SoftScan</string>
+</resources>

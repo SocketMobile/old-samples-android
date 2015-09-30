@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light" />
+
+    <style name="WarrantyDescription">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Large</item>
+    </style>
+
+    <style name="WarrantyExpiration">
+        <item name="android:textColor">@android:color/secondary_text_light_nodisable</item>
+    </style>
+
+    <style name="ScannerUnregistered">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="ScannerRegistered">
+        <item name="android:textColor">@android:color/holo_green_light</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

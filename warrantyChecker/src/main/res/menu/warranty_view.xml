@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WarrantyView">
+
+    <item
+        android:id="@+id/action_register"
+        android:title="@string/action_register"
+        android:showAsAction="always|withText"
+        android:enabled="false" />
+    <item android:title="@string/action_sandbox_000" />
+    <item android:title="@string/action_sandbox_100" />
+    <item android:title="@string/action_sandbox_010" />
+    <item android:title="@string/action_sandbox_110" />
+    <item android:title="@string/action_sandbox_001" />
+    <item android:title="@string/action_sandbox_101" />
+    <item android:title="@string/action_sandbox_011" />
+    <item android:title="@string/action_sandbox_111" />
+    <item
+        android:id="@+id/action_reset"
+        android:title="@string/action_reset" />
+</menu>

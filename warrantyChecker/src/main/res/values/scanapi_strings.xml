@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SingleEntryActivity!</string>
+    <string name="status">Status:</string>
+    <string name="initializingScanApi">Initializing ScanAPI…</string>
+    <string name="failed_to_initialize_scanapi_with_error_">Failed to initialize ScanAPI - error:</string>
+    <string name="pair">Pair to scanner</string>
+    <string name="none_paired">no bluetooth device paired</string>
+    <string name="pair_to_scanner">Pair to a Scanner</string>
+    <string name="no_bluetooth">No Bluetooth</string>
+    <string name="confirm">Confirm</string>
+
+</resources>

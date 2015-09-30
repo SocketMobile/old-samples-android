@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".SingleEntryActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/initializingScanApi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonEzPair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pair_to_scanner" />
+
+    <Spinner
+        android:id="@+id/spinner_softscan"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:entries="@array/softscan_values" />
+
+    <Button
+        android:id="@+id/buttonTrigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/triggerlabel" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm" />
+
+    <Spinner
+        android:id="@+id/spinner_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:entries="@array/spinner_confirmation_entries" />
+
+</LinearLayout>
