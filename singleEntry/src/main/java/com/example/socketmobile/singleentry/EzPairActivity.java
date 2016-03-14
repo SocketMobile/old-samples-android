@@ -221,7 +221,7 @@ public class EzPairActivity extends Activity {
         // by the Socket identifier
         BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if (bluetoothAdapter != null) {
-            _hostBluetoothAddress = bluetoothAdapter.getAddress().replace(":", "");
+            _hostBluetoothAddress = android.provider.Settings.Secure.getString(getApplicationContext().getContentResolver(), "bluetooth_address").replace(":", "");
             Set<BluetoothDevice> pairedDevices = bluetoothAdapter.getBondedDevices();
 
             // If there are paired devices, add each one to the ArrayAdapter
