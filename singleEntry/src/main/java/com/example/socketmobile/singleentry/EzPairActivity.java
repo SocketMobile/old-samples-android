@@ -24,7 +24,9 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -221,7 +223,14 @@ public class EzPairActivity extends Activity {
         // by the Socket identifier
         BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         if (bluetoothAdapter != null) {
-            _hostBluetoothAddress = bluetoothAdapter.getAddress().replace(":", "");
+
+            if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP_MR1) {
+                _hostBluetoothAddress = bluetoothAdapter.getAddress();
+            } else {
+                _hostBluetoothAddress = Settings.Secure.getString(getContentResolver(), "bluetooth_address");
+            }
+            _hostBluetoothAddress = _hostBluetoothAddress.replace(":", "");
+
             Set<BluetoothDevice> pairedDevices = bluetoothAdapter.getBondedDevices();
 
             // If there are paired devices, add each one to the ArrayAdapter
