@@ -1,5 +1,9 @@
 # Socket Mobile Android Samples
 
+### Usage
+
+To build the sample applications, download the Android ScanAPI SDK from the [Socket Mobile developer portal](https://www.socketmobile.com/developers) and copy `scanapi.jar` and `scanapi-api.jar` into the `libs` folder of each sample project (e.g. `singleEntry/libs`).
+
 ## Single Entry
 
 Single Entry is a minimal example of a ScanAPI enabled Android app. It uses a
